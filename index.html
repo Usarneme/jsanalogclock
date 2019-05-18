@@ -21,6 +21,7 @@
       font-size: 10px;
     }
     body {
+      background: rgba(255,255,255,0.6);
       margin: 0;
       font-size: 2rem;
       display:flex;
@@ -46,8 +47,10 @@
       position: relative;
       width: 100%;
       height: 100%;
-      transform: translateY(-3px); /* account for the height of the clock hands */
-      transform: rotate(90deg);
+      background: rgba(255,255,255,0.75);
+      border-radius: 50%;
+      /* account for the height of the clock hands */
+      transform: translateY(-3px) rotate(90deg) scale(1.1);
     }
     .hand {
       width:50%;
